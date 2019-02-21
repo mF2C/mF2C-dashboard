@@ -4,6 +4,10 @@ import NotFound from "@/pages/NotFoundPage.vue";
 
 // Admin pages
 const Dashboard = () => import(/* webpackChunkName: "dashboard" */"@/pages/Dashboard.vue");
+const Resources = () => import(/* webpackChunkName: "resources" */"@/pages/Resources.vue");
+const Users = () => import(/* webpackChunkName: "users" */"@/pages/Users.vue");
+const Services = () => import(/* webpackChunkName: "services" */"@/pages/Services.vue");
+const Control = () => import(/* webpackChunkName: "control" */"@/pages/Control.vue");
 const Profile = () => import(/* webpackChunkName: "common" */ "@/pages/Profile.vue");
 const Notifications = () => import(/* webpackChunkName: "common" */"@/pages/Notifications.vue");
 const Icons = () => import(/* webpackChunkName: "common" */ "@/pages/Icons.vue");
@@ -21,6 +25,26 @@ const routes = [
         path: "dashboard",
         name: "dashboard",
         component: Dashboard
+      },
+      {
+        path: "resources",
+        name: "resources",
+        component: Resources
+      },
+      {
+        path: "users",
+        name: "users",
+        component: Users
+      },
+      {
+        path: "services",
+        name: "services",
+        component: Services
+      },
+      {
+        path: "control",
+        name: "control",
+        component: Control
       },
       {
         path: "profile",
@@ -49,7 +73,7 @@ const routes = [
       },
       {
         path: "table-list",
-        name: "table-list",
+        name: "cimi",
         component: TableList
       }
     ]

@@ -120,6 +120,13 @@
     "userProfile": "User Profile",
     "tableList": "Table List",
     "typography": "Typography",
-    "rtlSupport": "RTL Support"
+    "rtlSupport": "RTL Support",
+    "cimi": "cimi",
+    "logs": "logs",
+    "violations": "violations",
+    "control": "control",
+    "resources": "resources",
+    "users": "users",
+    "services": "services"
   }
 }
